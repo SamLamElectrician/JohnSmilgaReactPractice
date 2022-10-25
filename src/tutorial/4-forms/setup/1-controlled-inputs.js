@@ -5,6 +5,7 @@ import React, { useState } from "react";
 // React
 // value, onChange
 
+//refactored in step 2
 const ControlledInputs = () => {
   const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
